@@ -13,7 +13,7 @@
 ## 论文列表
 
 ### Few-shot（少样本）
-- （待补充）
+- <a name="FSSA"></a>[**FSAA**]Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning（**WACV,2020**）[[论文](https://arxiv.org/abs/2002.00264)][[代码](https://github.com/maheshkkumar/fscc)]![GitHub stars](http://img.shields.io/github/stars/maheshkkumar/fscc.svg?logo=github&label=Stars)
 
 ### Zero-shot（零样本）
 - （待补充）
