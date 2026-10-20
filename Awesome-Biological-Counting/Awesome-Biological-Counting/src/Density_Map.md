@@ -18,7 +18,8 @@
 ## 论文列表
 
 ### People（人 / 人群）
-- （待补充）
+- <a name="CrowdNet"></a>[**CrowdNet**]CrowdNet: A Deep Convolutional Network for Dense Crowd Counting(**ACMMM,2016**)[[paper]](https://arxiv.org/abs/1608.06197)[[code]](https://github.com/davideverona/deep-crowd-counting_crowdnet)![GitHub stars](https://img.shields.io/github/stars/davideverona/deep-crowd-counting_crowdnet.svg?logo=github&label=Stars)
+
 
 ### Birds（鸟类）
 - （待补充）
@@ -36,4 +37,4 @@
 - （待补充）
 
 ### Cells & Microorganisms（细胞 / 微生物 / 浮游生物）
-- （待补充）
+- <a name="CrowdNet"></a>[**CrowdNet**]CrowdNet: A Deep Convolutional Network for Dense Crowd Counting(**ACMMM,2016**)[[paper]](https://arxiv.org/abs/1608.06197)[[code]](https://github.com/davideverona/deep-crowd-counting_crowdnet)![GitHub stars](https://img.shields.io/github/stars/davideverona/deep-crowd-counting_crowdnet.svg?logo=github&label=Stars)
