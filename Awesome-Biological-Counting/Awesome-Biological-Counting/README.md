@@ -55,13 +55,13 @@ Awesome-Biological-Counting / Awesome-Vision-Counting / Awesome-Animal-Counting�
 
 > 第二索引：按收录对象反查，便于按物种/场景检索。各主干文件内也按对象分小节。
 
-- People（人 / 人群）：（待补充）
+- People（人 / 人群）：<a name="FSSA"></a>[**FSSA,2020**][[paper]](https://arxiv.org/abs/2002.00264),<a name="CS-SLR"></a>[[**CS-SLR**]][[paper]](https://ieeexplore.ieee.org/document/7552905),<a name="CrowdNet">[[**CrowdNet**]]</a>[[paper]](https://arxiv.org/abs/1608.06197);
 - Birds（鸟类）：（待补充）
 - Fish（鱼群）：（待补充）
 - Insects（昆虫：蜂、蚁等）：（待补充）
 - Marine mammals（海洋哺乳动物）：（待补充）
 - Camera-trap mammals（红外相机兽类）：（待补充）
-- Cells & Microorganisms（细胞 / 微生物 / 浮游生物）：（待补充）
+- Cells & Microorganisms（细胞 / 微生物 / 浮游生物）：<a name="DE-VOC"></a>[**DE-VOC**][[paper]](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf),<a name="GP"></a>[**GP**][[paper]](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_22);
 - Other（其他）：（待补充）
 
 ## Leaderboard
