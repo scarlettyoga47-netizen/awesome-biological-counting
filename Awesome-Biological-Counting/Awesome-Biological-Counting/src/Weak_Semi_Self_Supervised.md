@@ -16,7 +16,9 @@
 ## 论文列表
 
 ### Weakly-supervised（弱监督）
-- （待补充）
+#### People and Cell(人，细胞)
+- <a name="GP"></a>[**GP**] Gaussian Process Density Counting from Weak Supervision(**ECCV**)[[paper]](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_22)
+
 
 ### Semi-supervised（半监督）
 - （待补充）
