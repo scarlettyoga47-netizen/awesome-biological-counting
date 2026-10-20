@@ -12,4 +12,4 @@
 
 ## 论文列表
 
-- （待补充）
+- <a name="CS-SLR"></a>[**CS-SLR**] Cost-sensitive sparse linear regression for crowd counting with imbalanced training data(**ICME**)[[paper]](https://ieeexplore.ieee.org/document/7552905)
