@@ -13,7 +13,7 @@
 ## 论文列表
 
 ### Few-shot
-- <a name="FSSA"></a>[**FSAA**]Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning（**WACV 2020**）[[论文](https://arxiv.org/abs/2002.00264)][[代码](https://github.com/maheshkkumar/fscc)]![GitHub stars](http://img.shields.io/github/stars/maheshkkumar/fscc.svg?logo=github&label=Stars)
+- <a name="FSSA"></a>[**FSAA**]Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning（**WACV,2020**）[[论文](https://arxiv.org/abs/2002.00264)][[代码](https://github.com/maheshkkumar/fscc)]![GitHub stars](http://img.shields.io/github/stars/maheshkkumar/fscc.svg?logo=github&label=Stars)
 
 ### Zero-shot
 - （待补充）
