@@ -38,4 +38,4 @@
 - （待补充）
 
 ### Cells & Microorganisms（细胞 / 微生物 / 浮游生物）
-- <a name="FE-VOC"></a>[**FE-VOC**]Fast visual object counting via example-based density estimation(**ICIP,2016**)[[paper]](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf)
+- <a name="DE-VOC"></a>[**DE-VOC**]Fast visual object counting via example-based density estimation(**ICIP,2016**)[[paper]](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf)
