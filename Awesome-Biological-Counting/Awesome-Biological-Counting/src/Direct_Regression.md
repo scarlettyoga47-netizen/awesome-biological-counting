@@ -17,7 +17,8 @@
 ## 论文列表
 
 ### People（人 / 人群）
-- （待补充）
+- <a name="CS-SLR"></a>[**CS-SLR**] Cost-sensitive sparse linear regression for crowd counting with imbalanced training data(**ICME,2016**)[[paper]](https://ieeexplore.ieee.org/document/7552905)
+
 
 ### Birds（鸟类）
 - （待补充）
