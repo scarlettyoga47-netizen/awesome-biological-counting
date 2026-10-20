@@ -11,6 +11,8 @@
 ```
 
 ## 论文列表
+### People（人 / 人群）
 
 - <a name="CS-SLR"></a>[**CS-SLR**] Cost-sensitive sparse linear regression for crowd counting with imbalanced training data(**ICME,2016**)[[paper]](https://ieeexplore.ieee.org/document/7552905)
+### People and Sell（人,细胞）
 - <a name="DE-VOC"></a>[**DE-VOC**]Fast visual object counting via example-based density estimation(**ICIP,2016**)[[paper]](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf)
