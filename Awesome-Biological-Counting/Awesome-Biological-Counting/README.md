@@ -55,7 +55,7 @@ Awesome-Biological-Counting / Awesome-Vision-Counting / Awesome-Animal-Counting�
 
 > 第二索引：按收录对象反查，便于按物种/场景检索。各主干文件内也按对象分小节。
 
-- People（人 / 人群）：<a name="FSSA"></a>[**FSSA,2020**][[paper]](https://arxiv.org/abs/2002.00264),<a name="CS-SLR"></a>[[**CS-SLR**]][[paper]](https://ieeexplore.ieee.org/document/7552905),<a name="CrowdNet">[[**CrowdNet**]]</a>[[paper]](https://arxiv.org/abs/1608.06197);
+- People（人 / 人群）：<a name="FSSA"></a>[**FSSA,2020**][[paper]](https://arxiv.org/abs/2002.00264),<a name="CS-SLR"></a>[[**CS-SLR**]][[paper]](https://ieeexplore.ieee.org/document/7552905),<a name="CrowdNet">[[**CrowdNet**]]</a>[[paper]](https://arxiv.org/abs/1608.06197),<a name="DeepCount"></a>[**DeepCount**][[paper]](https://arxiv.org/abs/1908.03314);
 - Birds（鸟类）：（待补充）
 - Fish（鱼群）：（待补充）
 - Insects（昆虫：蜂、蚁等）：（待补充）
