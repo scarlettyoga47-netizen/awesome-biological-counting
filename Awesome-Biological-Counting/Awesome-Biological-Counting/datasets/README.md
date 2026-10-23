@@ -46,7 +46,7 @@
 - <a name="crowdnet"></a>**[CrowdNet]** CrowdNet: A Deep Convolutional Network for Dense Crowd Counting（**ACMMM 2016**）[[论文](https://arxiv.org/abs/1608.06197)]
 - <a name="gp-ws"></a>**[GP-WS]** Gaussian Process Density Counting from Weak Supervision（**ECCV 2016**）[[论文](https://doi.org/10.1007/978-3-319-46448-0_22)]
 
-## 按对象速查（攒多后再分文件）
+## 按对象速查
 
 - People（人 / 人群）：WorldExpo'10、Mall、UCSD、UCF_CC_50、Pedestrian、Shanghai Tech PartA、Shanghai Tech PartB、UCF-QNRF
 - Cells & Microorganisms（细胞 / 微生物 / 浮游生物）：Bacterial cell dataset、Synthetic cells、Malaria
