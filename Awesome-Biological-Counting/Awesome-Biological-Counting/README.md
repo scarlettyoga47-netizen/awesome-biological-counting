@@ -81,7 +81,19 @@ Awesome-Biological-Counting / Awesome-Vision-Counting / Awesome-Animal-Counting�
 
 | Method | Dataset | MAE | MSE | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
-| （待补充） | | | | | |
+| FSCC（K=1, w/ ROI） | WorldExpo'10（Avg） | 7.12 | 9.88 (RMSE) | [FSCC](https://arxiv.org/abs/2002.00264) | [fscc](https://github.com/maheshkkumar/fscc) |
+| FSCC（K=1, w/ ROI） | Mall | 2.44 | 3.12 (RMSE) | [FSCC](https://arxiv.org/abs/2002.00264) | [fscc](https://github.com/maheshkkumar/fscc) |
+| FSCC（K=1, w/ ROI） | UCSD | 3.08 | 4.16 (RMSE) | [FSCC](https://arxiv.org/abs/2002.00264) | [fscc](https://github.com/maheshkkumar/fscc) |
+| CS-SLR | UCSD | 1.83 | 5.04 | [CS-SLR](https://web.pkusz.edu.cn/adsp/files/2015/10/Cost-Sensitive-Sparse-Linear-Regression-For-Crowd-Counting-With-Imbalanced-Training-Data.pdf) | — |
+| CS-SLR | Mall | 3.23 | 15.77 | [CS-SLR](https://web.pkusz.edu.cn/adsp/files/2015/10/Cost-Sensitive-Sparse-Linear-Regression-For-Crowd-Counting-With-Imbalanced-Training-Data.pdf) | — |
+| FE-VOC（UCSD max 协议） | UCSD | 1.98 | — | [FE-VOC](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf) | — |
+| CrowdNet（5 折 CV） | UCF_CC_50 | 452.5 | — | [CrowdNet](https://arxiv.org/abs/1608.06197) | — |
+| DeepCount | Shanghai Tech Part A | 65.2 | 112.5 (RMSE) | [DeepCount](https://arxiv.org/abs/1908.03314) | [deepcount](https://github.com/GeorgeChenZJ/deepcount) |
+| DeepCount | Shanghai Tech Part B | 7.2 | 11.3 (RMSE) | [DeepCount](https://arxiv.org/abs/1908.03314) | [deepcount](https://github.com/GeorgeChenZJ/deepcount) |
+| DeepCount | UCF-QNRF | 95.7 | 167.1 (RMSE) | [DeepCount](https://arxiv.org/abs/1908.03314) | [deepcount](https://github.com/GeorgeChenZJ/deepcount) |
+| DeepCount | Mall | 1.55 | 2.00 (RMSE) | [DeepCount](https://arxiv.org/abs/1908.03314) | [deepcount](https://github.com/GeorgeChenZJ/deepcount) |
+| GP-WS（GPMIC） | Synthetic cells / Pedestrian / Malaria | 待补（原文表2） | 论文仅报 MAE | [GP-WS](https://doi.org/10.1007/978-3-319-46448-0_22) | — |
+
 
 ## Contributing
 
