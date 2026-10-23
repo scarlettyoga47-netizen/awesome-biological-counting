@@ -16,7 +16,10 @@
 | Dataset | Subject 对象 | Scene 场景 | Scale 规模 | Annotation 标注 | Split 划分 | Paper | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | WorldExpo'10 | People | 多场景监控（108 场景） | 3980 标注图像 / 1132 视频序列 / 108 场景 | Point | 103 场景训练 / 5 场景测试 | [FSCC](#fscc) | 待补充 |
-| Mall | People | 商场室内监控 | 2000 帧 | Point | 800 训练 / 1200 测试 | [FSCC](#fscc)、[CS-SLR](#cs-slr) | 待补充 |
+| Mall | People | 商场室内监控 | 2000 帧 | Point | 800 训练 / 1200 测试 | [FSCC](#fscc)、[CS-SLR](#cs-slr)、[DeepCount](#deepcount)  | 待补充 |
+| Shanghai Tech Part A | People | 密集人群街头 | 300 训练 / 182 测试图像，241,677 标注，平均 501 人 | Point | 300 训练 / 182 测试 | [DeepCount](#deepcount) | 待补充 |
+| Shanghai Tech Part B | People | 稀疏街头 | 原文未详述图像数（稀疏街道场景） | Point | 原文未详述 | [DeepCount](#deepcount) | 待补充 |
+| UCF-QNRF | People | 稀疏 + 密集混合 | 1,251,642 标注，单图最多 12,865 标注 | Point | 原文未详述 | [DeepCount](#deepcount) | 待补充 |
 | UCSD | People | 室外监控 | 2000 帧，238×158，11–46 人 | Point | 800 训练 / 1200 测试 | [FSCC](#fscc)、[CS-SLR](#cs-slr)、[FE-VOC](#fe-voc) | 待补充 |
 | UCF_CC_50 | People | 密集人群静态图 | 50 张灰度图，94–4543 人 | Point | 5 折交叉验证 | [CrowdNet](#crowdnet) | 待补充 |
 | Bacterial cell dataset | 细菌细胞 | 显微镜 | 5 个子集（不同训练样本数） | Point | 按子集划分 | [FE-VOC](#fe-voc) | 待补充 |
@@ -37,6 +40,7 @@
 ## 来源论文（条目格式）
 
 - <a name="fscc"></a>**[FSCC]** Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning（**WACV 2020**）[[论文](https://arxiv.org/abs/2002.00264)][[代码](https://github.com/maheshkkumar/fscc)]
+- <a name="DeepCount"></a>[**DeepCount**]Deep Density-aware Count Regressor(**ECAI 2020**)[[论文]](https://arxiv.org/abs/1908.03314)[[代码]](https://github.com/GeorgeChenZJ/deepcount)
 - <a name="cs-slr"></a>**[CS-SLR]** Cost-Sensitive Sparse Linear Regression for Crowd Counting with Imbalanced Training Data（**ICME 2016**）[[论文](https://web.pkusz.edu.cn/adsp/files/2015/10/Cost-Sensitive-Sparse-Linear-Regression-For-Crowd-Counting-With-Imbalanced-Training-Data.pdf)]
 - <a name="fe-voc"></a>**[FE-VOC]** Fast Visual Object Counting via Example-based Density Estimation（**ICIP 2016**）[[论文](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf)]
 - <a name="crowdnet"></a>**[CrowdNet]** CrowdNet: A Deep Convolutional Network for Dense Crowd Counting（**ACMMM 2016**）[[论文](https://arxiv.org/abs/1608.06197)]
@@ -44,7 +48,7 @@
 
 ## 按对象速查（攒多后再分文件）
 
-- People（人 / 人群）：WorldExpo'10、Mall、UCSD、UCF_CC_50、Pedestrian
+- People（人 / 人群）：WorldExpo'10、Mall、UCSD、UCF_CC_50、Pedestrian、Shanghai Tech PartA、Shanghai Tech PartB、UCF-QNRF
 - Cells & Microorganisms（细胞 / 微生物 / 浮游生物）：Bacterial cell dataset、Synthetic cells、Malaria
 - Birds（鸟类）：（待补充）
 - Fish（鱼群）：（待补充）
