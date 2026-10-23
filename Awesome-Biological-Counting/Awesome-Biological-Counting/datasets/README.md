@@ -42,7 +42,7 @@
 - <a name="fscc"></a>**[FSCC]** Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning（**WACV 2020**）[[论文](https://arxiv.org/abs/2002.00264)][[代码](https://github.com/maheshkkumar/fscc)]
 - <a name="DeepCount"></a>[**DeepCount**]Deep Density-aware Count Regressor(**ECAI 2020**)[[论文]](https://arxiv.org/abs/1908.03314)[[代码]](https://github.com/GeorgeChenZJ/deepcount)
 - <a name="cs-slr"></a>**[CS-SLR]** Cost-Sensitive Sparse Linear Regression for Crowd Counting with Imbalanced Training Data（**ICME 2016**）[[论文](https://web.pkusz.edu.cn/adsp/files/2015/10/Cost-Sensitive-Sparse-Linear-Regression-For-Crowd-Counting-With-Imbalanced-Training-Data.pdf)]
-- <a name="fe-voc"></a>**[FE-VOC]** Fast Visual Object Counting via Example-based Density Estimation（**ICIP 2016**）[[论文](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf)]
+- <a name="fe-voc"></a>**[DE-VOC]** Fast Visual Object Counting via Example-based Density Estimation（**ICIP 2016**）[[论文](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf)]
 - <a name="crowdnet"></a>**[CrowdNet]** CrowdNet: A Deep Convolutional Network for Dense Crowd Counting（**ACMMM 2016**）[[论文](https://arxiv.org/abs/1608.06197)]
 - <a name="gp-ws"></a>**[GP-WS]** Gaussian Process Density Counting from Weak Supervision（**ECCV 2016**）[[论文](https://doi.org/10.1007/978-3-319-46448-0_22)]
 
