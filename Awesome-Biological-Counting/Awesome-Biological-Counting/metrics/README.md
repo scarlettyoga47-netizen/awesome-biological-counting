@@ -10,14 +10,14 @@
 - 公式：`MAE = (1/N) Σ |yᵢ − ŷᵢ|`
 - 方向：**越低越好**。
 - 说明：计数任务第一主指标，反映平均计数偏差，对异常误差不敏感。
-- 本批使用：[FSCC](#fscc)、[CS-SLR](#cs-slr)、[FE-VOC](#fe-voc)、[CrowdNet](#crowdnet)、[GP-WS](#gp-ws)（5 篇全部使用）。
+- 本批使用：[FSCC](#fscc)、[CS-SLR](#cs-slr)、[FE-VOC](#fe-voc)、[CrowdNet](#crowdnet)、[GP-WS](#gp-ws)、[DeepCount](deepcount) 。
 
 ### MSE（Mean Squared Error，均方误差）/ RMSE（均方根误差）
 
 - 公式：`MSE = (1/N) Σ (yᵢ − ŷᵢ)²`；`RMSE = √MSE`
 - 方向：**越低越好**。
 - 说明：对大误差平方放大，惩罚高估 / 低估较多的样本，常与 MAE 并列报告。
-- 本批使用：MSE —— [CS-SLR](#cs-slr)；RMSE —— [FSCC](#fscc)。
+- 本批使用：MSE —— [CS-SLR](#cs-slr)；RMSE —— [FSCC](#fscc)、[DeepCount](deepcount)。
 
 ### MDE / 平均偏差（Mean Deviation Error）
 
@@ -53,6 +53,7 @@
 ## 使用论文条目库
 
 - <a name="fscc"></a>**[FSCC]** Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning（**WACV 2020**）[[论文](https://arxiv.org/abs/2002.00264)][[代码](https://github.com/maheshkkumar/fscc)]
+- <a name="deepcount"></a>**[DeepCount]** Deep Density-aware Count Regressor（**ECAI 2020**）[[论文](https://arxiv.org/abs/1908.03314)][[代码](https://github.com/GeorgeChenZJ/deepcount)]
 - <a name="cs-slr"></a>**[CS-SLR]** Cost-Sensitive Sparse Linear Regression for Crowd Counting with Imbalanced Training Data（**ICME 2016**）[[论文](https://web.pkusz.edu.cn/adsp/files/2015/10/Cost-Sensitive-Sparse-Linear-Regression-For-Crowd-Counting-With-Imbalanced-Training-Data.pdf)]
 - <a name="fe-voc"></a>**[FE-VOC]** Fast Visual Object Counting via Example-based Density Estimation（**ICIP 2016**）[[论文](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf)]
 - <a name="crowdnet"></a>**[CrowdNet]** CrowdNet: A Deep Convolutional Network for Dense Crowd Counting（**ACMMM 2016**）[[论文](https://arxiv.org/abs/1608.06197)]
