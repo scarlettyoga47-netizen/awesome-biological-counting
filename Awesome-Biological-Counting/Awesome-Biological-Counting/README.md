@@ -15,6 +15,7 @@ Awesome-Biological-Counting / Awesome-Vision-Counting / Awesome-Animal-Counting�
 
 - [News](#news)
 - [Datasets](#datasets)
+- [Metrics](#metrics)
 - [Papers (by Method)](#papers-by-method)
 - [By Subject (cross-index)](#by-subject-cross-index)
 - [Contributing](#contributing)
@@ -46,7 +47,12 @@ Awesome-Biological-Counting / Awesome-Vision-Counting / Awesome-Animal-Counting�
 | Malaria（疟疾血涂片红细胞） | Cells | 显微镜血涂片 | 78 张，90±84 红细胞 | Region-level（弱监督） | 5 图训练 / 其余测试 | 待补充 |
 | TRONCOS | 车辆 (Vehicle) | 高速公路及城市交通拥堵监控 | 1,244张图像, 46,796辆车 | 车辆中心点 (Point) + ROI | 官方提供 Train / Val / Test (常用5折) | 待补充 |
 
-##
+## Metrics
+
+- 计数回归指标（三大主干通用，最常用）：MAE（Mean Absolute Error，平均绝对误差）； MSE（Mean Squared Error，均方误差）/ RMSE（均方根误差）； MDE / 平均偏差（Mean Deviation Error）
+- 检测 / 定位计数指标：Precision / Recall / F1； AP（Average Precision，点定位平均精度）
+- 视频时序计数指标：MOTA（Multiple Object Tracking Accuracy）
+- 空间分布评估指标（针对密集/车辆计数场景）：GAME (Grid Average Mean Absolute Error, 网格平均绝对误差)
 
 ## Papers (by Method)
 
