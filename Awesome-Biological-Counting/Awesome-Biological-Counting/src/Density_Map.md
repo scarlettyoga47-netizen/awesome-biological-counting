@@ -19,7 +19,6 @@
 
 ### People（人 / 人群）
 - <a name="Stacked-Pool"></a>[**Stacked-Pool**]Stacked Pooling For Boosting Scale Invariance Of Crowd Counting(**ICASSP,2020**)[[paper]](https://siyuhuang.github.io/papers/ICASSP-2020-STACKED%20POOLING%20FOR%20BOOSTING%20SCALE%20INVARIANCE%20OF%20CROWD%20COUNTING.pdf)[[arxiv]](https://arxiv.org/abs/1808.07456)[[code]](https://github.com/siyuhuang/crowdcount-stackpool)
-- <a name="M-SFANet"></a>[**M-SFANet**]Encoder-Decoder Based Convolutional Neural Networks with Multi-Scale-Aware Modules for Crowd Counting（**ICPR,2020**）[[paper]](https://arxiv.org/abs/2003.05586)[[code]](https://github.com/Pongpisit-Thanasutives/Variations-of-SFANet-for-Crowd-Counting)
 - <a name="FCNCC"></a>[**FCNCC**]Fully Convolutional Crowd Counting On Highly Congested Scenes(**VISAPP,2017**)[[paper]](https://arxiv.org/abs/1612.00220)
 - <a name="CrowdNet"></a>[**CrowdNet**]CrowdNet: A Deep Convolutional Network for Dense Crowd Counting(**ACMMM,2016**)[[paper]](https://arxiv.org/abs/1608.06197)[[code]](https://github.com/davideverona/deep-crowd-counting_crowdnet)![GitHub stars](https://img.shields.io/github/stars/davideverona/deep-crowd-counting_crowdnet.svg?logo=github&label=Stars)
 - <a name="MSCNN"></a>[**MSCNN**]Multi-scale Convolution Neural Networks for Crowd Counting(**ICIP,2016**)[[paper]](https://arxiv.org/abs/1702.02359)[[code]](https://github.com/Ling-Bao/mscnn)
