@@ -10,21 +10,22 @@
 - 公式：`MAE = (1/N) Σ |yᵢ − ŷᵢ|`
 - 方向：**越低越好**。
 - 说明：计数任务第一主指标，反映平均计数偏差，对异常误差不敏感。
-- 本批使用：[FSCC](#fscc)、[CS-SLR](#cs-slr)、[FE-VOC](#fe-voc)、[CrowdNet](#crowdnet)、[GP-WS](#gp-ws)、[DeepCount](deepcount) 。
+- 本批使用：[FSCC](#fscc)、[CS-SLR](#cs-slr)、[FE-VOC](#fe-voc)、[CrowdNet](#crowdnet)、[GP-WS](#gp-ws)、[DeepCount](deepcount)、[Stacked-Pool](#stacked-pool)、[M-SFANet](#m-sfanet)、[FCNCC](#fcncc)、[Hydra-CNN](#hydra-cnn)、[MCNN](#mcnn) 。
 
 ### MSE（Mean Squared Error，均方误差）/ RMSE（均方根误差）
 
 - 公式：`MSE = (1/N) Σ (yᵢ − ŷᵢ)²`；`RMSE = √MSE`
 - 方向：**越低越好**。
 - 说明：对大误差平方放大，惩罚高估 / 低估较多的样本，常与 MAE 并列报告。
-- 本批使用：MSE —— [CS-SLR](#cs-slr)；RMSE —— [FSCC](#fscc)、[DeepCount](deepcount)、[MSCNN](#mscnn)。
+- 本批使用：MSE —— [CS-SLR](#cs-slr)；RMSE —— [FSCC](#fscc)、[DeepCount](deepcount)、[MSCNN](#mscnn)、[Stacked-Pool](#stacked-pool)、[M-SFANet](#m-sfanet)、[FCNCC](#fcncc)、[MCNN](#mcnn) 。
 
 ### MDE / 平均偏差（Mean Deviation Error）
 
 - 公式：`MDE = (1/N) Σ |δᵢ − δᵢ^w| / δᵢ`（各论文归一化口径略有差异）
 - 方向：**越低越好**。
 - 说明：按真实数量归一化的偏差；**各论文口径略有差异**，引用时核对定义。
-- 本批使用：[FSCC](#fscc)、[CS-SLR](#cs-slr)。
+- 本批使用：[FSCC](#fscc)、[CS-SLR](#cs-slr)、[Hydra-CNN](#hydra-cnn) 。
+
 
 ## 二、检测 / 定位计数指标
 
@@ -49,7 +50,17 @@
 - 方向：**越高越好**。
 - 本批使用：（待补充）。
 
+## 四、空间分布评估指标（针对密集/车辆计数场景）
+
+#### GAME (Grid Average Mean Absolute Error, 网格平均绝对误差)
+
+- 公式：`GAME(L) = (1/N) Σᵢ ( Σₗ₌₁^(4^L) | Cᵢ,ₗ - Ĉᵢ,ₗ | )`
+- 方向：**越低越好**
+- 说明：将图像划分为 `4^L` 个非重叠子网格（GAME(0) 即整图，等价于 MAE；GAME(1) 为 4 宫格；GAME(2) 为 16 宫格等），计算各子区域绝对误差之和。它惩罚“总数猜对，但局部位置分布猜错”的情况，评估模型对空间密度的预测能力。
+- 本批使用：[M-SFANet](#m-sfanet)、[Hydra-CNN](#hydra-cnn) 。
+
 <a name="使用论文条目库"></a>
+
 ## 使用论文条目库
 
 - <a name="fscc"></a>**[FSCC]** Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning（**WACV 2020**）[[paper]](https://arxiv.org/abs/2002.00264)[[code]](https://github.com/maheshkkumar/fscc)
