@@ -17,7 +17,6 @@ Awesome-Biological-Counting / Awesome-Vision-Counting / Awesome-Animal-Counting�
 - [Datasets](#datasets)
 - [Papers (by Method)](#papers-by-method)
 - [By Subject (cross-index)](#by-subject-cross-index)
-- [Leaderboard](#leaderboard)
 - [Contributing](#contributing)
 - [Related](#related)
 
@@ -31,21 +30,23 @@ Awesome-Biological-Counting / Awesome-Vision-Counting / Awesome-Animal-Counting�
 
 > 单独收录计数任务常用数据集。标注类型区分：Point（点）/ Box（框）/ Image-level（仅图级总数）。
 
-| Dataset | Subject 对象 | Scene 场景 | Scale 规模 | Annotation 标注 | Split 划分 | Paper | Link |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| WorldExpo'10 | People | 多场景监控（108 场景） | 3980 标注图像 / 1132 视频序列 / 108 场景 | Point | 103 场景训练 / 5 场景测试 | [FSCC](#fscc)、[M-SFANet ](#m-sfanet)、[Stacked-Pool](#stacked-pool)、[MCNN](#mcnn) | 待补充 |
-| Mall | People | 商场室内监控 | 2000 帧 | Point | 800 训练 / 1200 测试 | [FSCC](#fscc)、[CS-SLR](#cs-slr)、[DeepCount](#deepcount)  | 待补充 |
-| Shanghai Tech Part A | People | 密集人群街头 | 300 训练 / 182 测试图像，241,677 标注，平均 501 人 | Point | 300 训练 / 182 测试 | [DeepCount](#deepcount)、[MSCNN](#mscnn)、[Stacked-Pool](#stacked-pool)、[M-SFANet ](#m-sfanet)、[FCNCC](#fcncc)、[MCNN](#mcnn) | 待补充 |
-| Shanghai Tech Part B | People | 稀疏街头 | 原文未详述图像数（稀疏街道场景） | Point | 原文未详述 | [DeepCount](#deepcount)、[MSCNN](#mscnn)、[Stacked-Pool](#stacked-pool)、[M-SFANet ](#m-sfanet)、[FCNCC](#fcncc)、[MCNN](#mcnn) | 待补充 |
-| UCF-QNRF | People | 稀疏 + 密集混合 | 1,251,642 标注，单图最多 12,865 标注 | Point | 原文未详述 | [DeepCount](#deepcount)、[MSCNN](#mscnn)、[M-SFANet ](#m-sfanet) | 待补充 |
-| UCSD | People | 室外监控 | 2000 帧，238×158，11–46 人 | Point | 800 训练 / 1200 测试 | [FSCC](#fscc)、[CS-SLR](#cs-slr)、[FE-VOC](#fe-voc)、[Hydra CNN](hydra-cnn)、[MCNN](#mcnn) | 待补充 |
-| UCF_CC_50 | People | 密集人群静态图 | 50 张灰度图，94–4543 人 | Point | 5 折交叉验证 | [CrowdNet](#crowdnet)、[M-SFANet ](#m-sfanet)、[FCNCC](#fcncc)、[Hydra CNN](hydra-cnn)、[MCNN](#mcnn) | 待补充 |
-|Beijing BRT| People | 北京快速公交站台监控 (含光照变化) | 1,280张图像 (640×360), 单图1~64人 | 头部中心点 (Point) | Train / Val / Test (按时间顺序划分) | [M-SFANet ](#m-sfanet)  | 待补充 |
-| Bacterial cell dataset | 细菌细胞 | 显微镜 | 5 个子集（不同训练样本数） | Point | 按子集划分 | [FE-VOC](#fe-voc) | 待补充 |
-| Synthetic cells（合成荧光显微镜细胞） | Cells | 荧光显微镜 | 200 张，171±64 细胞 | Region-level（弱监督） | 100 训练 / 100 测试 | [GP-WS](#gp-ws) | 待补充 |
-| Pedestrian（室外监控行人） | People | 室外监控视频 | 2000 张，29±9 人 | Region-level（弱监督） | 5 帧稀疏标注训练，其余评测 | [GP-WS](#gp-ws) | 待补充 |
-| Malaria（疟疾血涂片红细胞） | Cells | 显微镜血涂片 | 78 张，90±84 红细胞 | Region-level（弱监督） | 5 图训练 / 其余测试 | [GP-WS](#gp-ws) | 待补充 |
-| TRONCOS | 车辆 (Vehicle) | 高速公路及城市交通拥堵监控 | 1,244张图像, 46,796辆车 | 车辆中心点 (Point) + ROI | 官方提供 Train / Val / Test (常用5折) | [M-SFANet ](#m-sfanet)、[Hydra CNN](hydra-cnn)  | 待补充 |
+| Dataset | Subject 对象 | Scene 场景 | Scale 规模 | Annotation 标注 | Split 划分 | Link |
+| --- | --- | --- | --- | --- | --- | --- |
+| WorldExpo'10 | People | 多场景监控（108 场景） | 3980 标注图像 / 1132 视频序列 / 108 场景 | Point | 103 场景训练 / 5 场景测试 | 待补充 |
+| Mall | People | 商场室内监控 | 2000 帧 | Point | 800 训练 / 1200 测试 | 待补充 |
+| Shanghai Tech Part A | People | 密集人群街头 | 300 训练 / 182 测试图像，241,677 标注，平均 501 人 | Point | 300 训练 / 182 测试 | 待补充 |
+| Shanghai Tech Part B | People | 稀疏街头 | 原文未详述图像数（稀疏街道场景） | Point | 原文未详述 | 待补充 |
+| UCF-QNRF | People | 稀疏 + 密集混合 | 1,251,642 标注，单图最多 12,865 标注 | Point | 原文未详述 | 待补充 |
+| UCSD | People | 室外监控 | 2000 帧，238×158，11–46 人 | Point | 800 训练 / 1200 测试 | 待补充 |
+| UCF_CC_50 | People | 密集人群静态图 | 50 张灰度图，94–4543 人 | Point | 5 折交叉验证 | 待补充 |
+|Beijing BRT| People | 北京快速公交站台监控 (含光照变化) | 1,280张图像 (640×360), 单图1~64人 | 头部中心点 (Point) | Train / Val / Test (按时间顺序划分) | 待补充 |
+| Bacterial cell dataset | 细菌细胞 | 显微镜 | 5 个子集（不同训练样本数） | Point | 按子集划分 | 待补充 |
+| Synthetic cells（合成荧光显微镜细胞） | Cells | 荧光显微镜 | 200 张，171±64 细胞 | Region-level（弱监督） | 100 训练 / 100 测试 | 待补充 |
+| Pedestrian（室外监控行人） | People | 室外监控视频 | 2000 张，29±9 人 | Region-level（弱监督） | 5 帧稀疏标注训练，其余评测 | 待补充 |
+| Malaria（疟疾血涂片红细胞） | Cells | 显微镜血涂片 | 78 张，90±84 红细胞 | Region-level（弱监督） | 5 图训练 / 其余测试 | 待补充 |
+| TRONCOS | 车辆 (Vehicle) | 高速公路及城市交通拥堵监控 | 1,244张图像, 46,796辆车 | 车辆中心点 (Point) + ROI | 官方提供 Train / Val / Test (常用5折) | 待补充 |
+
+##
 
 ## Papers (by Method)
 
@@ -75,25 +76,6 @@ Awesome-Biological-Counting / Awesome-Vision-Counting / Awesome-Animal-Counting�
 - Camera-trap mammals（红外相机兽类）：（待补充）
 - Cells & Microorganisms（细胞 / 微生物 / 浮游生物）：[DE-VOC](de-voc),[GP](#GP);
 - Other（其他）：[M-SFANet](#m-sfanet)、[Hydra-Cnn](#hydra-cnn);
-
-## Leaderboard
-
-> 在公开数据集上的主流方法指标对比（MAE / MSE 等），待数据集与条目积累后再建。
-
-| Method | Dataset | MAE | MSE | Paper | Code |
-| --- | --- | --- | --- | --- | --- |
-| FSCC（K=1, w/ ROI） | WorldExpo'10（Avg） | 7.12 | 9.88 (RMSE) | [FSCC](https://arxiv.org/abs/2002.00264) | [fscc](https://github.com/maheshkkumar/fscc) |
-| FSCC（K=1, w/ ROI） | Mall | 2.44 | 3.12 (RMSE) | [FSCC](https://arxiv.org/abs/2002.00264) | [fscc](https://github.com/maheshkkumar/fscc) |
-| FSCC（K=1, w/ ROI） | UCSD | 3.08 | 4.16 (RMSE) | [FSCC](https://arxiv.org/abs/2002.00264) | [fscc](https://github.com/maheshkkumar/fscc) |
-| CS-SLR | UCSD | 1.83 | 5.04 | [CS-SLR](https://web.pkusz.edu.cn/adsp/files/2015/10/Cost-Sensitive-Sparse-Linear-Regression-For-Crowd-Counting-With-Imbalanced-Training-Data.pdf) | — |
-| CS-SLR | Mall | 3.23 | 15.77 | [CS-SLR](https://web.pkusz.edu.cn/adsp/files/2015/10/Cost-Sensitive-Sparse-Linear-Regression-For-Crowd-Counting-With-Imbalanced-Training-Data.pdf) | — |
-| DE-VOC（UCSD max 协议） | UCSD | 1.98 | — | [DE-VOC](https://web.pkusz.edu.cn/adsp/files/2015/10/Fast-Visual-Object-Counting-via-Example-based-Density-Estimation.pdf) | — |
-| CrowdNet（5 折 CV） | UCF_CC_50 | 452.5 | — | [CrowdNet](https://arxiv.org/abs/1608.06197) | — |
-| DeepCount | Shanghai Tech Part A | 65.2 | 112.5 (RMSE) | [DeepCount](https://arxiv.org/abs/1908.03314) | [deepcount](https://github.com/GeorgeChenZJ/deepcount) |
-| DeepCount | Shanghai Tech Part B | 7.2 | 11.3 (RMSE) | [DeepCount](https://arxiv.org/abs/1908.03314) | [deepcount](https://github.com/GeorgeChenZJ/deepcount) |
-| DeepCount | UCF-QNRF | 95.7 | 167.1 (RMSE) | [DeepCount](https://arxiv.org/abs/1908.03314) | [deepcount](https://github.com/GeorgeChenZJ/deepcount) |
-| DeepCount | Mall | 1.55 | 2.00 (RMSE) | [DeepCount](https://arxiv.org/abs/1908.03314) | [deepcount](https://github.com/GeorgeChenZJ/deepcount) |
-| GP-WS（GPMIC） | Synthetic cells / Pedestrian / Malaria | 待补（原文表2） | 论文仅报 MAE | [GP-WS](https://doi.org/10.1007/978-3-319-46448-0_22) | — |
 
 
 ## Contributing
