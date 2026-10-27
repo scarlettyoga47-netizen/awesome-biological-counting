@@ -67,14 +67,14 @@ Awesome-Biological-Counting / Awesome-Vision-Counting / Awesome-Animal-Counting�
 
 > 第二索引：按收录对象反查，便于按物种/场景检索。各主干文件内也按对象分小节。
 
-- People（人 / 人群）：[FSSA](#fssa),[CS-SLR](#cs-slr),[CrowdNet](#crowdnet),[DeepCount](#deepcount);
+- People（人 / 人群）：[FSSA](#fssa),[CS-SLR](#cs-slr),[CrowdNet](#crowdnet),[DeepCount](#deepcount)、[Stacked-Pool](#stacked-pool)、[FCNCC](#fcncc)、[MCNN](#mcnn);
 - Birds（鸟类）：（待补充）
 - Fish（鱼群）：（待补充）
 - Insects（昆虫：蜂、蚁等）：（待补充）
 - Marine mammals（海洋哺乳动物）：（待补充）
 - Camera-trap mammals（红外相机兽类）：（待补充）
 - Cells & Microorganisms（细胞 / 微生物 / 浮游生物）：[DE-VOC](de-voc),[GP](#GP);
-- Other（其他）：（待补充）
+- Other（其他）：[M-SFANet](#m-sfanet)、[Hydra-Cnn](#hydra-cnn);
 
 ## Leaderboard
 
